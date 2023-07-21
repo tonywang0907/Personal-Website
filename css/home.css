@@ -71,6 +71,7 @@ a {
     background: linear-gradient(to top, var(--secondary-color) 50%, transparent 50%);
 }
 
+
 #intro-desc p {
     font-family: Mulish;
     font-size: 18px;
@@ -213,7 +214,7 @@ a {
 .project-pic-1 {
     background: url(../img/dot\ pattern.png) no-repeat;
     background-size: 108px 200px;
-    background-position-y: 250px;
+    background-position-y: 270px;
     background-position-x: 10px;
     display: flex;
     justify-content: center;
@@ -223,7 +224,7 @@ a {
 .project-pic-2 {
     background: url(../img/dot\ pattern.png) no-repeat;
     background-size: 108px 200px;
-    background-position-y: 220px;
+    background-position-y: 255px;
     background-position-x: 10px;
     display: flex;
     justify-content: center;
