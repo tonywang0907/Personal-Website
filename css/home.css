@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mulish&family=Nunito+Sans:wght@700&display=swap');
+:root {
+    --background-color : #eaecf9;
+    --primary-color: #fff;
+    --secondary-color: #a8b4ff;
+}
+
+* {  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container */
+#main-container {
+    background: var(--background-color);
+    width: 95%;
+    height: 90vh;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#main-inner-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#nav-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-bar {
+    display: flex;
+    list-style-type: none;
+}
+
+#nav-bar li {
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#intro-container {
+    display: flex;
+    margin-top: 90px;
+}
+
+
+#intro-header h1 {
+    font-family: Abril Fatface;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.half-highlight {
+    background: linear-gradient(to top, var(--secondary-color) 50%, transparent 50%);
+}
+
+#intro-desc p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+    margin-top: 25px;
+}
+
+#intro-btn {
+    margin-top: 60px;
+    position: absolute;
+}
+
+#intro-btn-outline {
+    width: 185px;
+    height: 55px;
+    border: 2px solid #000;
+    margin-top: 55px;
+    margin-left: 10px;
+}
+
+#intro-btn a {
+    color: var(--primary-color);
+    background: #000;
+    padding: 15px 40px;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+#footer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+#scroll-line {
+    border: none;
+    background: #000;
+    width: 2px;
+    height: 105px;
+}
+
+#footer p {
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    margin-bottom: 60px;
+}
+
+/* Project Container */
+.project-container {
+    width: 75%;
+    margin: auto;
+    padding: 220px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.project-category {
+    color: #B7B4B9;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.project-name h1 {
+    font-family: Abril Fatface;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 26px;
+}
+
+.project-tags ul {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 38px;
+}
+
+.project-tags li {
+    padding: 6px 10px;
+    background: var(--secondary-color);
+    margin-right: 16px;
+    font-family: Mulish;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.project-desc p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2; 
+}
+
+.project-desc {
+    margin-bottom: 64px;
+}
+
+.project-btn a {
+    padding: 16px 38px;
+    color: var(--primary-color);
+    background: #000;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.project-btn-outline {
+    height: 57px;
+    width: 203px;
+    border: 2px solid #000;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+
+.project-pic-1 {
+    background: url(../img/dot\ pattern.png) no-repeat;
+    background-size: 108px 200px;
+    background-position-y: 250px;
+    background-position-x: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-pic-2 {
+    background: url(../img/dot\ pattern.png) no-repeat;
+    background-size: 108px 200px;
+    background-position-y: 220px;
+    background-position-x: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background: var(--background-color);
+    width: 95%;
+    height: 370px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#footer-inner-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#footer-inner-container h1 {
+    font-family: Abril Fatface;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#footer-inner-container p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+}
