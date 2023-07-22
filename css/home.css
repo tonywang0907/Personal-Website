@@ -67,8 +67,14 @@ a {
     line-height: normal;
 }
 
-.half-highlight {
+.half-highlight,
+.half-highlight-h {
     background: linear-gradient(to top, var(--secondary-color) 50%, transparent 50%);
+}
+
+.half-highlight-h:hover {
+    background: var(--secondary-color);
+    transition: 0.5s ease-in;
 }
 
 
@@ -214,7 +220,7 @@ a {
 .project-pic-1 {
     background: url(../img/dot\ pattern.png) no-repeat;
     background-size: 108px 200px;
-    background-position-y: 270px;
+    background-position-y: 230px;
     background-position-x: 10px;
     display: flex;
     justify-content: center;

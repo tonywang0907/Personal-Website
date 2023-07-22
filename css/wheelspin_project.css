@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Mulish&family=Nunito+Sans:wght@700&display=swap');
+:root {
+    --background-color : #eaecf9;
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --tertiary-color: #a8b4ff;
+}
+
+* {  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+#project-container {
+    width: 75%;
+    margin: auto;
+}   
+
+#back-arrow-container i {
+    margin-right: 10px;
+}
+
+#project-status {
+    color: #b7b4b9;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+
+#project-title {
+    font-family: Abril Fatface;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+#project-tags {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+#project-tags li {
+    padding: 6px 10px;
+    background: var(--tertiary-color);
+    margin-right: 16px;
+    font-family: Mulish;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+#about-container p,
+#def-container p {
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+}
+
+#back-arrow-container,
+#about-container, 
+#def-container,
+#tools-container,
+#summary-container,
+#pic-container {
+    margin: 40px 0px;
+}
+
+#about-container h1, 
+#def-container h1,
+#tools-container h1,
+#summary-container h1,
+#pic-container h1 {
+    margin: 10px 0px;
+}
+
+#tools-container ul {
+    margin-left: 40px;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.half-highlight-h {
+    background: linear-gradient(to top, var(--tertiary-color) 50%, transparent 50%);
+}
+
+.half-highlight-h:hover {
+    background: var(--tertiary-color);
+    transition: 0.5s ease-in;
+}
+
+#left-arrow-icon {
+    color: var(--secondary-color);
+}
