@@ -149,3 +149,13 @@ a {
 #left-arrow-icon {
     color: var(--secondary-color);
 }
+
+/* Media Query */
+
+/* Small Devices (e.g., larger smartphones and portrait-oriented tablets): */
+@media (max-width: 576px) {
+    iframe {
+        width: auto;
+        height: auto;
+    } 
+}

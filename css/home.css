@@ -257,6 +257,7 @@ footer {
     #footer-inner-container {
         display: flex;
         flex-direction: column;
+        padding-top: 50px;
     }
 
     #footer-inner-container h1 {
