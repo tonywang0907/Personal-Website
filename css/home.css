@@ -139,7 +139,7 @@ a {
 .project-container {
     width: 75%;
     margin: auto;
-    padding: 260px 0px;
+    padding: 250px 0px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
