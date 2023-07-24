@@ -14,8 +14,8 @@
             <a href="../html/home.html"><i class="fa-solid fa-arrow-left"></i>Back to Home</a>
         </div>  
         
-        <p id="project-status">Complete</p>
-        
+        <p id="project-status"><span><i class="fa-solid fa-circle"></i></span>Complete</p>
+
         <h1 id="project-title">Sports Card Wheel Spin</h1>
 
         <ul id="project-tags">
@@ -27,10 +27,10 @@
         <div id="about-container">
             <h1>About</h1>
             <p>
-                The goal of this project is to create a user-friendly tool for <span class="half-highlight-h"><a href="https://www.whatnot.com/">Whatnot</a></span> sellers in the world of <span class="half-highlight-h"><a href="#def-container">sports card breaks</a></span>. It is intended to save 
-                sellers time and effort by automating the tracking of buyers and their corresponding teams. This automated tool takes care of data 
-                entry, so sellers can focus on what matters most – delivering a seamless experience to the buyers. No more worries about errors or 
-                mix-ups, as the tool ensures accurate and reliable tracking between the buyers and teams.
+                Designed with user-friendliness in mind, this project aims to create a seamless experience for <a href="https://www.whatnot.com/about-us"><span class="half-highlight-h">Whatnot</span></a> sellers in the <a href="#def-container"><span class="half-highlight-h">sports card
+                breaks</span></a> community. The tool automates the process of tracking buyers and their corresponding teams, saving sellers valuable time
+                and effort. With accurate and reliable tracking, sellers can focus on delivering the best experience to their buyers without worrying 
+                about errors or mix-ups.
             </p>
         </div>
 
@@ -45,26 +45,54 @@
 
         <div id="pic-container">
             <h1>Project UI</h1>
-            <img src="../img/Screenshot 2023-07-21 at 4.31.17 PM.png" width="100%" height="100%" alt="">
+            <div class="ui-pic">
+                <img src="../img/wheel_spin_w_break_sheet.png" width="75%" height="75%" alt="">
+                <figcaption>Wheel Spin & Break Sheet Page</figcaption>
+            </div>
+            <div class="ui-pic">
+                <img src="../img/wheel_spin.png" width="75%" height="75%" alt="">
+                <figcaption>Wheel Spin Page</figcaption> 
+            </div>
+        </div>
+
+        <div id="desc-container">
+            <h1>How Does it Work?</h1>
+            <p>
+                The Sports Card Wheel Spin Tool is a user-friendly solution that streamlines the buyer and team tracking process for NBA, MLB, and 
+                NFL sports card breaks. Simply enter the Whatnot live stream URL, and the tool will seamlessly extract data during the wheel spin. It 
+                automatically matches the latest buyer with the team that lands on the wheel, ensuring accurate tracking for the selected sport. The 
+                results are instantly displayed on a table, allowing sellers to view and track buyer-team pairings effortlessly. For added convenience, 
+                sellers can export the data to an Excel sheet for further customization and easy printing.
+            </p>
+        </div>
+
+        <div id="video-container">
+            <h1>Video Demo</h1>
+            <div id="ui-vid">
+                <video src="../Wheelspin Video Demo.mov" width="75%" height="75%" controls muted></video>
+            </div>
         </div>
 
         <div id="summary-container">
-            <h1>Video Summary of Project</h1>
+            <h1>Project Summary</h1>
+            <p>
+                The Sports Card Wheel Spin Tool was designed to revolutionize the buyer and team tracking process for sports card breakers on 
+                Whatnot. While it excels in local environments, providing seamless tracking and data scraping capabilities, deployment on the 
+                internet encountered challenges due to Cloudflare's restrictions on webscraping data from Whatnot. Despite this, the tool continues 
+                to be a valuable asset, enhancing the sports card breaking experience with its efficient and accurate tracking capabilities.
+            </p>
         </div>
 
         <div id="def-container">
-            <h1>What is Sports Card Break? </h1>
+            <h1>What is <span class="half-highlight">Sports Card Break?</span> </h1>
             <p>
-                In sports card breaks, individuals or businesses buy entire boxes of sports cards and then offer collectors the chance to "buy in" and 
-                claim cards from specific teams within the box. The "breaker," who purchased the box, opens it via live stream to reveal the cards 
+                In sports card breaks, individuals or businesses buy entire boxes of sports cards and then offer collectors the chance to buy in and 
+                claim cards from specific teams within the box. The breaker, who purchased the box, opens it via live stream to reveal the cards 
                 inside. Participants who bought a specific team get to keep the cards from that team. For instance, if a participant purchased the 
                 Los Angeles Lakers and there are two Lakers cards in the box, they get to keep those cards. However, participants who bought teams 
                 without any cards receive nothing from the break.
             </p>
         </div>
-
-
     </div>
-
 </body>
 </html>

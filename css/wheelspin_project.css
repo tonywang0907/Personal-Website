@@ -6,6 +6,7 @@
     --tertiary-color: #a8b4ff;
 }
 
+/* Utils */
 * {  
     box-sizing: border-box;
     margin: 0;
@@ -21,6 +22,18 @@ a {
     color: var(--secondary-color);
 }
 
+.half-highlight,
+.half-highlight-h {
+    background: linear-gradient(to top, var(--tertiary-color) 50%, transparent 50%);
+}
+
+.half-highlight-h:hover {
+    background: var(--tertiary-color);
+    transition: 0.5s ease-in;
+}
+
+/* Project Container */
+
 #project-container {
     width: 75%;
     margin: auto;
@@ -30,15 +43,24 @@ a {
     margin-right: 10px;
 }
 
+#back-arrow-container a {
+    font-family: Mulish;
+    font-weight: 700;
+}
+
 #project-status {
     color: #b7b4b9;
     font-family: Mulish;
     font-size: 14px;
-    font-style: normal;
     font-weight: 700;
     letter-spacing: 2.8px;
     text-transform: uppercase;
     margin: 20px 0px;
+}
+
+#project-status i {
+    color: #7cfc00;
+    margin-right: 10px;
 }
 
 #project-title {
@@ -62,56 +84,60 @@ a {
     margin-right: 16px;
     font-family: Mulish;
     font-size: 13px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: capitalize;
     cursor: pointer;
 }
 
 #about-container p,
+#desc-container p,
+#summary-container p,
 #def-container p {
     font-family: Mulish;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 2;
 }
 
 #back-arrow-container,
 #about-container, 
-#def-container,
 #tools-container,
+#pic-container,
+#desc-container,
+#video-container,
 #summary-container,
-#pic-container {
+#def-container {
     margin: 40px 0px;
 }
 
 #about-container h1, 
 #def-container h1,
 #tools-container h1,
+#desc-container h1,
+#video-container h1,
 #summary-container h1,
 #pic-container h1 {
     margin: 10px 0px;
 }
 
+
 #tools-container ul {
-    margin-left: 40px;
+    margin-left: 70px;
     font-family: Mulish;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 2;
 }
 
-.half-highlight-h {
-    background: linear-gradient(to top, var(--tertiary-color) 50%, transparent 50%);
+#pic-container figcaption {
+    margin-bottom: 20px;
 }
 
-.half-highlight-h:hover {
-    background: var(--tertiary-color);
-    transition: 0.5s ease-in;
+.ui-pic,
+#ui-vid {
+    text-align: center;
 }
+
 
 #left-arrow-icon {
     color: var(--secondary-color);
