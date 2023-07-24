@@ -32,6 +32,14 @@ a {
     transition: 0.5s ease-in;
 }
 
+#status-green {
+    color: #7cfc00;
+}
+
+#status-red {
+    color: #f00;
+}
+
 /* Project Container */
 
 #project-container {
@@ -59,7 +67,6 @@ a {
 }
 
 #project-status i {
-    color: #7cfc00;
     margin-right: 10px;
 }
 
