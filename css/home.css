@@ -76,7 +76,9 @@ a {
 
 #intro-container {
     display: flex;
-    margin-top: 90px;
+    flex-direction: column;
+    margin-top: 60px;
+    align-items: left;
 }
 
 #intro-header h1 {
@@ -242,6 +244,10 @@ footer {
         display: none;
     }
 
+    #intro-container {
+        margin-top: 40px;
+    }
+
     #intro-header h1 {
         margin-bottom: 50px;
     }
@@ -251,6 +257,11 @@ footer {
     }
 
     .project-container img {
+        display: none;
+    }
+
+    .project-pic-1,
+    .project-pic-2 {
         display: none;
     }
 
@@ -265,7 +276,7 @@ footer {
     }
 
     #footer-inner-container p {
-        font-size: 14px;
+        font-size: 12px;
         padding: 40px 0px;
     }
 }
