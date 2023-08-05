@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --background-color : #eaecf9;
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --tertiary-color: #a8b4ff;
+}
+
+* {  
+    font-family: Figtree;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.rm-bullet-pt {
+    list-style-type: none;
+}
+
+.half-highlight,
+.half-highlight-h {
+    background: linear-gradient(to top, var(--tertiary-color) 50%, transparent 50%);
+}
+
+.half-highlight-h:hover {
+    background: var(--tertiary-color);
+    transition: 0.5s ease-in;
+}
+
+.exp li {
+    margin-left: 10px;
+}
+
+#resume-container {
+    margin: auto;
+    height: 791px;
+    width: 612px;
+    border: 1px solid #000;
+    padding: 20px 40px;
+}
+
+/* Header Container */
+#header-main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#header-container h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 80px;
+    background: var(--tertiary-color);
+    margin-right: 20px;
+}
+
+#links-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+#links-icon {
+    margin-right: -20px;
+}
+
+#links {
+    margin-left: -20px;
+}
+
+#links-divider {
+    height: 3px;
+    width: 65px;
+    background: #000;
+    transform: rotate(90deg);
+}
+
+#block {
+    height: 68px;
+    width: 40px;
+    background: var(--tertiary-color);
+    margin-right: -40px;
+}
+
+/* Education Container */
+#education-container h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#education-body p {
+    font-weight: bold;
+}
+
+#education-body #graduation-yr,
+#degree {
+    font-style: italic;
+}
+
+#education-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Coursework Container */
+
+#coursework-skills-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+#coursework-list,
+#skills-list {
+    display: flex;
+    gap: 20px;
+}
+
+#coursework-container h1 span, 
+#skills-container h1 span,
+#project-container h1 span,
+#experience-container h1 span,
+#interests-container h1 span,
+#languages-container h1 span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#coursework-container, 
+#skills-container,
+#project-container,
+#experience-container,
+#interests-container,
+#languages-container {
+    margin: 10px 0px;
+}
+
+
+/* Project/Experience Container */ 
+.exp {
+    margin-bottom: 5px;
+}
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exp-title,
+.exp-yr {
+    font-weight: bold;
+}
+
+.exp-content {
+    font-style: italic;
+}
+/* Interests and Languages Contianer */
+
+#footer-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+
+#additional-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    color: #808080;
+}
