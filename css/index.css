@@ -347,6 +347,37 @@ footer {
 }
 
 @media all and (min-width: 2560px) {
+
+    #intro-header h1 {
+        margin: 50px 0px;
+        padding-bottom: 50px;
+        font-size: 90px;
+    }
+
+    #intro-desc p {
+        width: 70%;
+        font-size: 26px;
+        padding-bottom: 50px;
+    }
+
+    #intro-btn a {
+        color: var(--primary-color);
+        font-family: Nunito Sans;
+        font-size: 26px;
+        font-weight: 700;
+        text-transform: lowercase;
+        padding: 25px 90px;
+        background: var(--secondary-color);
+    }
+    
+    #intro-btn-outline {
+        width: 340px;
+        height: 75px;
+        border: 2px solid var(--secondary-color);
+        margin-top: -30px;
+        margin-left: 15px;
+    }
+
     .project-pic-1,
     .project-pic-2,
     .project-pic-3 {
