@@ -75,6 +75,8 @@ a {
 }
 
 #intro-container {
+    max-height: 100vh;
+    width: 50%;
     display: flex;
     flex-direction: column;
     margin-top: 60px;
@@ -187,20 +189,27 @@ a {
 }
 
 .project-pic-1,
-.project-pic-2 {
+.project-pic-2,
+.project-pic-3 {
     display: flex;
     justify-content: center;
     align-items: center;
     background: url(../img/dot_pattern.png) no-repeat;
     background-size: 108px 200px; 
 }
-.project-pic-1 {
+
+.project-pic-3 {
+    background-position-x: 10px;
+    background-position-y: 290px;
+}
+
+.project-pic-2 {
     background-position-x: 10px;
     background-position-y: 230px;
 
 }
 
-.project-pic-2 {
+.project-pic-1 {
     background-position-x: 10px;
     background-position-y: 255px;
 }
