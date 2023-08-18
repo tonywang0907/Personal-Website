@@ -144,6 +144,8 @@ a {
 
 .project-tags ul {
     display: flex;
+    justify-content:flex-start;
+    align-items: center;
     list-style-type: none;
     margin-bottom: 38px;
 }
@@ -248,7 +250,7 @@ footer {
 /* Media Query */
 
 /* Small Devices (e.g., larger smartphones and portrait-oriented tablets): */
-@media (max-width: 576px) { 
+@media all and (max-width: 576px) { 
     #nav-bar-container li {
         display: none;
     }
@@ -258,7 +260,26 @@ footer {
     }
 
     #intro-header h1 {
-        margin-bottom: 50px;
+        font-size: 46px;
+        margin: 50px 0px;
+    }
+
+    #intro-btn a {
+        color: var(--primary-color);
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: lowercase;
+        padding: 15px 20px;
+        background: var(--secondary-color);
+    }
+    
+    #intro-btn-outline {
+        width: 145px;
+        height: 55px;
+        border: 2px solid var(--secondary-color);
+        margin-top: -30px;
+        margin-left: 10px;
     }
 
     .project-desc p {
@@ -270,7 +291,8 @@ footer {
     }
 
     .project-pic-1,
-    .project-pic-2 {
+    .project-pic-2,
+    .project-pic-3 {
         display: none;
     }
 
@@ -291,8 +313,46 @@ footer {
 }
 
 /* Medium Devices (e.g., landscape-oriented tablets and smaller laptops): */
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
     #intro-desc p {
         display: none;
+    }
+
+    #intro-container {
+        width: 60%;
+    }
+
+    #intro-header h1 {
+        margin: 10px 0px;
+        padding-bottom: 70px;
+    }
+
+    #intro-btn a {
+        color: var(--primary-color);
+        font-family: Nunito Sans;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: lowercase;
+        padding: 15px 25px;
+        background: var(--secondary-color);
+    }
+    
+    #intro-btn-outline {
+        width: 160px;
+        height: 55px;
+        border: 2px solid var(--secondary-color);
+        margin-top: -30px;
+        margin-left: 10px;
+    }
+}
+
+@media all and (min-width: 2560px) {
+    .project-pic-1,
+    .project-pic-2,
+    .project-pic-3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: none;
     }
 }
