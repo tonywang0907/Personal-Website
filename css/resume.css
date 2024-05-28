@@ -158,6 +158,18 @@ a {
     margin: 10px 0px;
 }
 
+#experience-container {
+    margin-bottom: 0px;
+}
+
+#project-container {
+    margin-top: 0px;
+}
+
+#interests-container,
+#languages-container {
+    margin-top: 0px;
+}
 
 /* Project/Experience Container */ 
 .exp {
